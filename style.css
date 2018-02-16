@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header, footer {
+    background: #444333;
+    height: 100px;
+}
+
+nav {
+    margin: 0px auto;
+    width: 960px;
+}
+
+header img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 75px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #888888
+}
+
+main {
+    width: 960px;
+    margin: 30px auto;
+}
