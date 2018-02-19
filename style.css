@@ -1,5 +1,4 @@
 * {
-
     font-family: Helvetica, sans-serif;
 }
 
@@ -17,6 +16,7 @@ header img {
     float: left;
     margin-top: 15px;
     margin-right: 75px;
+    margin-bottom: 30px;
 }
 
 nav li {
@@ -39,8 +39,8 @@ main {
 main ul{
     width: 990px;
     display: table;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 30px 0px 30px 0px;
+
     padding-left: 0;
     padding-right: 0;
     border-right: 0;
@@ -66,9 +66,17 @@ section div {
     height: 400px;
 }
 
+section div h2 {
+    font-weight: bold;
+}
+
 section div p {
     height: 270px;
+    font-style: italic;
+    line-height: 25px;
     overflow: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
 
 }
 
@@ -79,12 +87,15 @@ section div button {
     margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 0;
+    transition: 150ms;
 }
 
 section div button:hover {
-    background-color: white;
-    color: black;
+    background: green;
+    color: white;
+    cursor: pointer;
 }
+
 footer{
     width: 100%;
     margin-top: 180px;
