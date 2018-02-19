@@ -1,4 +1,5 @@
 * {
+    border: 2px solid orange;
     font-family: Helvetica, sans-serif;
 }
 
@@ -24,6 +25,7 @@ nav li {
     margin-right: 60px;
 }
 
+
 a {
     text-decoration: none;
     color: #888888
@@ -32,4 +34,52 @@ a {
 main {
     width: 960px;
     margin: 30px auto;
+}
+
+main ul{
+    width: 960px;
+    display: table;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+main ul li {
+    width: 315px;
+    display: table-cell;
+    border-right: 0;
+    padding-right: 0;
+    
+}
+
+#bottomImage{
+    float: left;
+    margin-right: 20px;
+}
+
+section {
+   width: 960px;
+}
+
+section div {
+    height: 400px;
+}
+
+section div p {
+    overflow: auto;
+}
+
+section div button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    width: 100%;
+    margin-top: 180px;
 }
