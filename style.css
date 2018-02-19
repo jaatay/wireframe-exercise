@@ -1,5 +1,5 @@
 * {
-    border: 2px solid orange;
+
     font-family: Helvetica, sans-serif;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 
 main ul{
-    width: 960px;
+    width: 990px;
     display: table;
     margin-left: 0;
     margin-right: 0;
@@ -67,18 +67,24 @@ section div {
 }
 
 section div p {
+    height: 270px;
     overflow: auto;
+
 }
 
 section div button {
     height: 30px;
     background-color: black;
     color: white;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+section div button:hover {
+    background-color: white;
+    color: black;
+}
 footer{
     width: 100%;
     margin-top: 180px;
